@@ -21,7 +21,7 @@
                     <!-- <MenuTabs :tabs="tabs"></MenuTabs> -->
                 </el-col>
                 <el-col :xs="24" :sm="17" :md="18" :lg="19" :xl="20">
-                    <GroupSerch style="width: 100%"></GroupSerch>
+                    <GroupSearch style="width: 100%"></GroupSearch>
                     <Nuxt />
                 </el-col>
             </el-row>
@@ -35,7 +35,7 @@ body {
 }
 </style>
 <script>
-import GroupSerch from "../components/GroupSerch.vue";
+import GroupSearch from "../components/GroupSearch.vue";
 export default {
     data() {
         return {
@@ -67,6 +67,6 @@ export default {
             ]
         };
     },
-    components: { GroupSerch }
+    components: { GroupSearch }
 }
 </script>
